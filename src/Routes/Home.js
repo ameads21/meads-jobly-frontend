@@ -19,7 +19,7 @@ function Home() {
             <Link className="btn btn-primary font-weight-bold mr-3" to="/login">
               Log in
             </Link>
-            <Link className="btn btn-primary font-weight-bold" to="/signup">
+            <Link className="btn btn-primary font-weight-bold" to="/register">
               Sign up
             </Link>
           </p>
