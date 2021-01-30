@@ -36,7 +36,7 @@ function Register({ signup }) {
     e.preventDefault();
     let results = await signup(formData);
     if (results.success) {
-      history.push("/");
+      history.push("/companies");
     } else {
       setFormErrors(results.errors);
     }

@@ -20,7 +20,7 @@ function Login({ login }) {
     e.preventDefault();
     let results = await login(formData);
     if (results.success) {
-      history.push("/");
+      history.push("/companies");
     } else {
       setFormErrors(results.errors);
     }
